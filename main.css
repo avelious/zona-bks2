@@ -1,0 +1,161 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+.item {
+    margin: 10px;
+    font-style: normal;
+    font-family: tahoma, sans-serif;
+    color: inherit;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.item:hover {
+    cursor: pointer;
+    background: lightgray;
+    border-radius: 3px;
+    transform: scale(1.1);
+}
+
+.zona {
+    text-align: center;
+    font-size: 5em;
+    font-family: tahoma, sans-serif;
+    margin-top: 50px;
+}
+
+.zona1 {
+    text-align: center;
+    font-size: 4em;
+    font-family: tahoma, sans-serif;
+    color: #4a5052;
+    margin-top: -50px;
+}
+
+.cont {
+    display: flex;
+    background: #fff2f2;
+    height: 250px;
+    margin-top: 0px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.photo {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .image {
+        margin: 70px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+}
+
+
+.image {
+}
+
+.bg {
+    background: #f2f2f2;
+}
+
+.text {
+    flex-grow: 4;
+}
+
+.best {
+    text-align: center;
+    font-size: 2em;
+    font-family: tahoma, sans-serif;
+    margin-top: 500px;
+}
+
+.block {
+    background: #e5e5e5;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    margin-top: 25px;
+    box-shadow: 4px 4px 4px #c8c8c8;
+}
+
+.name {
+    text-align: center;
+    font-size: 2em;
+    font-family: tahoma, sans-serif;
+    margin-top: 100px;
+}
+
+.opis {
+    font-family: tahoma, sans-serif;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.block1 {
+    background: #e5e5e5;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px #c8c8c8;
+}
+.block2 {
+    background: #e5e5e5;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px #c8c8c8;
+}
+.block3 {
+    background: #e5e5e5;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px #c8c8c8;
+}
+
+.frame {
+    width: 65%;
+    height: 650px;
+    box-shadow: 4px 4px 4px #c8c8c8;
+}
+
+.slovar {
+    display: flex;
+    justify-content: space-between;
+    background: #e5e5e5;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+.slovar1 {
+    font-family: tahoma, sans-serif;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 20px;
+    font-size: 2em;
+}
+
+.map {
+    display: flex;
+    width: 650px;
+    height: 450px;
+    justify-content: flex-end;
+    margin-left: 50%;
+    margin-top: -22%;
+}
+
+
+
+
