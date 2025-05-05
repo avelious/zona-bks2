@@ -29,6 +29,7 @@
         background: lightgray;
         border-radius: 3px;
         transform: scale(1.1);
+        text-align: center;
     }
 }
 
@@ -41,7 +42,7 @@
 
 .zona {
     text-align: center;
-    font-size: 5em;
+    font-size: 4em;
     font-family: tahoma, sans-serif;
     margin-top: 50px;
 }
@@ -49,7 +50,7 @@
 @media screen and (max-width: 767px) {
     .zona {
         text-align: center;
-        font-size: 2em;
+        font-size: 2.2em;
         font-family: tahoma, sans-serif;
         margin-top: 50px;
     }
@@ -57,7 +58,7 @@
 
 .zona1 {
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
     font-family: tahoma, sans-serif;
     color: #4a5052;
     margin-top: 0px;
@@ -66,7 +67,7 @@
 @media screen and (max-width: 767px) {
     .zona1 {
         text-align: center;
-        font-size: 1em;
+        font-size: 1.7em;
         font-family: tahoma, sans-serif;
         color: #4a5052;
         margin-top: 0px;
@@ -125,6 +126,19 @@
     box-shadow: 4px 4px 4px #c8c8c8;
 }
 
+@media screen and (max-width: 767px) {
+    .block {
+        background: #e5e5e5;
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 20px;
+        margin-top: 25px;
+        box-shadow: 4px 4px 4px #c8c8c8;
+    }
+}
+
+
 .name {
     text-align: center;
     font-size: 2em;
@@ -138,33 +152,6 @@
     margin-top: -10px;
 }
 
-.block1 {
-    background: #e5e5e5;
-    gap: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 30px;
-    border-radius: 20px;
-    box-shadow: 4px 4px 4px #c8c8c8;
-}
-.block2 {
-    background: #e5e5e5;
-    gap: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 30px;
-    border-radius: 20px;
-    box-shadow: 4px 4px 4px #c8c8c8;
-}
-.block3 {
-    background: #e5e5e5;
-    gap: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 30px;
-    border-radius: 20px;
-    box-shadow: 4px 4px 4px #c8c8c8;
-}
 
 .frame {
     width: 65%;
@@ -198,5 +185,40 @@
 }
 
 
+.log {
+    width: 100px;
+}
 
+.log1 {
+    width: 120px;
+}
+
+@media screen and (max-width: 767px) {
+    .log {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .log1 {
+        width: 70px;
+    }
+}
+
+.phts {
+    width: 250px;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-top: 5px"
+}
+
+@media screen and (max-width: 767px) {
+    .phts {
+        display: flex;
+        justify-content: center;
+        width: 370px;
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+}
 
