@@ -10,6 +10,28 @@
     text-decoration: none;
     transition: 0.5s;
 }
+
+@media screen and (max-width: 767px) {
+    .item {
+        margin: 3px;
+        font-style: normal;
+        font-family: tahoma, sans-serif;
+        color: inherit;
+        text-decoration: none;
+        transition: 0.5s;
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .item:hover {
+        cursor: pointer;
+        background: lightgray;
+        border-radius: 3px;
+        transform: scale(1.1);
+    }
+}
+
 .item:hover {
     cursor: pointer;
     background: lightgray;
@@ -24,12 +46,31 @@
     margin-top: 50px;
 }
 
+@media screen and (max-width: 767px) {
+    .zona {
+        text-align: center;
+        font-size: 2em;
+        font-family: tahoma, sans-serif;
+        margin-top: 50px;
+    }
+}
+
 .zona1 {
     text-align: center;
     font-size: 4em;
     font-family: tahoma, sans-serif;
     color: #4a5052;
-    margin-top: -50px;
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 767px) {
+    .zona1 {
+        text-align: center;
+        font-size: 1em;
+        font-family: tahoma, sans-serif;
+        color: #4a5052;
+        margin-top: 0px;
+    }
 }
 
 .cont {
