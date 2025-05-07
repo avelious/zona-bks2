@@ -192,11 +192,12 @@
 
 
 .log {
-    width: 100px;
+    width: 250px;
 }
 
 .log1 {
-    width: 120px;
+    width: 250px;
+    
 }
 
 @media screen and (max-width: 767px) {
